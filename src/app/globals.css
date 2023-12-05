@@ -2,6 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: SFCompact;
+  src: url("../fonts/SF-Compact.ttf");
+}
+
+@font-face {
+  font-family: SFMono;
+  src: url("../fonts/SF-Mono-Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: SFMono;
+  src: url("../fonts/SF-Mono-Heavy.otf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: SFMono;
+  src: url("../fonts/SF-Mono-Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: SFMono;
+  src: url("../fonts/SF-Mono-Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: SFMono;
+  src: url("../fonts/SF-Mono-Regular.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: SFMono;
+  src: url("../fonts/SF-Mono-Semibold.otf");
+  font-weight: 600;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
